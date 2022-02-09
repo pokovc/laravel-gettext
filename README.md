@@ -432,7 +432,7 @@ If you're upgrading from the 4.*, the one for Laravel 5.3.*, you need to refacto
 
 Laravel now use this method for their own translation. You now need to use ``_i`` instead and add this keyword in the configuration file of Laravel-Gettext:
 
-Also, if you're using Symfony as your backend, you can add the `_s` method. It's made to use the full feature set of Symfony plurals syntax. 
+Also, if you're using Symfony as your backend, you can add the `_s` method. It's made to use the full feature set of Symfony plurals syntax.
 
 ```php
   /**

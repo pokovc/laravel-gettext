@@ -1,5 +1,5 @@
 {
-    "name": "deepskylog/laravel-gettext",
+    "name": "pokovc/laravel-gettext",
     "description": "Adds localization support to laravel applications in an easy way using Poedit and GNU gettext.",
     "homepage": "https://github.com/deepskylog/laravel-gettext",
     "keywords": [
@@ -22,10 +22,14 @@
         {
             "name": "Wim De Meester",
             "email": "deepskywim@gmail.com"
+        },
+        {
+            "name": "Gasper Nocr",
+            "email": "gasper.noc@gmail.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/deepskylog/laravel-gettext/issues"
+        "issues": "https://github.com/pokovc/laravel-gettext/issues"
     },
     "require": {
         "php": ">=7.2",
@@ -42,17 +46,17 @@
     },
     "autoload": {
         "psr-0": {
-            "deepskylog\\LaravelGettext\\": "src/"
+            "pokovc\\LaravelGettext\\": "src/"
         },
         "files": [
-            "src/deepskylog/LaravelGettext/Support/helpers.php"
+            "src/pokovc/LaravelGettext/Support/helpers.php"
         ]
     },
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
           "providers": [
-            "deepskylog\\LaravelGettext\\LaravelGettextServiceProvider"
+            "pokovc\\LaravelGettext\\LaravelGettextServiceProvider"
           ]
        }
     }

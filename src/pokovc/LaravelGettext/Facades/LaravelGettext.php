@@ -1,6 +1,6 @@
 <?php
 
-namespace deepskylog\LaravelGettext\Facades;
+namespace pokovc\LaravelGettext\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -13,6 +13,6 @@ class LaravelGettext extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return  \deepskylog\LaravelGettext\LaravelGettext::class;
+        return  \pokovc\LaravelGettext\LaravelGettext::class;
     }
 }

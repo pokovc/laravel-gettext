@@ -1,6 +1,6 @@
 <?php
 
-namespace deepskylog\LaravelGettext\Middleware;
+namespace pokovc\LaravelGettext\Middleware;
 
 use Closure;
 use \LaravelGettext;

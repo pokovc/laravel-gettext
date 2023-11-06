@@ -1,9 +1,9 @@
 <?php
 
-namespace deepskylog\LaravelGettext;
+namespace pokovc\LaravelGettext;
 
-use deepskylog\LaravelGettext\Composers\LanguageSelector;
-use deepskylog\LaravelGettext\Translators\TranslatorInterface;
+use pokovc\LaravelGettext\Composers\LanguageSelector;
+use pokovc\LaravelGettext\Translators\TranslatorInterface;
 
 class LaravelGettext
 {

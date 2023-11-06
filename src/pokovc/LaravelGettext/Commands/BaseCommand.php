@@ -1,17 +1,17 @@
 <?php
 
-namespace deepskylog\LaravelGettext\Commands;
+namespace pokovc\LaravelGettext\Commands;
 
 use Illuminate\Console\Command;
-use deepskylog\LaravelGettext\FileSystem;
-use deepskylog\LaravelGettext\Config\ConfigManager;
+use pokovc\LaravelGettext\FileSystem;
+use pokovc\LaravelGettext\Config\ConfigManager;
 
 class BaseCommand extends Command
 {
     /**
      * Filesystem helper.
      *
-     * @var \deepskylog\LaravelGettext\FileSystem
+     * @var \pokovc\LaravelGettext\FileSystem
      */
     protected $fileSystem;
 

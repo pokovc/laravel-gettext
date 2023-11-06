@@ -6,9 +6,9 @@
  * Time: 11:50.
  */
 
-namespace deepskylog\LaravelGettext\Testing\Adapter;
+namespace pokovc\LaravelGettext\Testing\Adapter;
 
-use deepskylog\LaravelGettext\Adapters\AdapterInterface;
+use pokovc\LaravelGettext\Adapters\AdapterInterface;
 
 class TestAdapter implements AdapterInterface
 {

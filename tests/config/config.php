@@ -128,7 +128,7 @@ return [
     /**
      * The adapter used to sync the laravel built-in locale.
      */
-    'adapter' => \deepskylog\LaravelGettext\Testing\Adapter\TestAdapter::class,
+    'adapter' => \pokovc\LaravelGettext\Testing\Adapter\TestAdapter::class,
 
     /**
      * Where to store the current locale/domain.
@@ -136,7 +136,7 @@ return [
      * By default, in the session.
      * Can be changed for only memory or your own storage mechanism
      *
-     * @see \deepskylog\LaravelGettext\Storages\Storage
+     * @see \pokovc\LaravelGettext\Storages\Storage
      */
-    'storage' => \deepskylog\LaravelGettext\Storages\SessionStorage::class,
+    'storage' => \pokovc\LaravelGettext\Storages\SessionStorage::class,
 ];

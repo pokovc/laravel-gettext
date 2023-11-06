@@ -1,9 +1,9 @@
 <?php
 
 use \Mockery as m;
-use deepskylog\LaravelGettext\Testing\BaseTestCase;
-use deepskylog\LaravelGettext\Config\ConfigManager;
-use deepskylog\LaravelGettext\FileSystem;
+use pokovc\LaravelGettext\Testing\BaseTestCase;
+use pokovc\LaravelGettext\Config\ConfigManager;
+use pokovc\LaravelGettext\FileSystem;
 
 /**
  * Created by PhpStorm.

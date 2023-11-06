@@ -1,23 +1,23 @@
 <?php
 
-namespace deepskylog\LaravelGettext\Translators;
+namespace pokovc\LaravelGettext\Translators;
 
-use deepskylog\LaravelGettext\FileSystem;
-use deepskylog\LaravelGettext\Storages\Storage;
-use deepskylog\LaravelGettext\Config\Models\Config;
-use deepskylog\LaravelGettext\Adapters\AdapterInterface;
-use deepskylog\LaravelGettext\Exceptions\UndefinedDomainException;
-use deepskylog\LaravelGettext\Exceptions\LocaleNotSupportedException;
+use pokovc\LaravelGettext\FileSystem;
+use pokovc\LaravelGettext\Storages\Storage;
+use pokovc\LaravelGettext\Config\Models\Config;
+use pokovc\LaravelGettext\Adapters\AdapterInterface;
+use pokovc\LaravelGettext\Exceptions\UndefinedDomainException;
+use pokovc\LaravelGettext\Exceptions\LocaleNotSupportedException;
 
 /**
  * Class implemented by the php-gettext module translator.
- * @package deepskylog\LaravelGettext\Translators
+ * @package pokovc\LaravelGettext\Translators
  */
 class Gettext extends BaseTranslator implements TranslatorInterface
 {
     /**
      * Config container.
-     * @type \deepskylog\LaravelGettext\Config\Models\Config
+     * @type \pokovc\LaravelGettext\Config\Models\Config
      */
     protected $configuration;
 
@@ -41,7 +41,7 @@ class Gettext extends BaseTranslator implements TranslatorInterface
 
     /**
      * Framework adapter.
-     * @type \deepskylog\LaravelGettext\Adapters\LaravelAdapter
+     * @type \pokovc\LaravelGettext\Adapters\LaravelAdapter
      */
     protected $adapter;
 

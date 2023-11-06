@@ -1,13 +1,13 @@
 <?php
 
-namespace deepskylog\LaravelGettext;
+namespace pokovc\LaravelGettext;
 
 use RecursiveIteratorIterator;
 use RecursiveDirectoryIterator;
-use deepskylog\LaravelGettext\Config\Models\Config;
-use deepskylog\LaravelGettext\Exceptions\FileCreationException;
-use deepskylog\LaravelGettext\Exceptions\DirectoryNotFoundException;
-use deepskylog\LaravelGettext\Exceptions\LocaleFileNotFoundException;
+use pokovc\LaravelGettext\Config\Models\Config;
+use pokovc\LaravelGettext\Exceptions\FileCreationException;
+use pokovc\LaravelGettext\Exceptions\DirectoryNotFoundException;
+use pokovc\LaravelGettext\Exceptions\LocaleFileNotFoundException;
 
 class FileSystem
 {

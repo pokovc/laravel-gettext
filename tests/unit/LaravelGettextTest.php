@@ -1,13 +1,13 @@
 <?php
 
 use \Mockery as m;
-use deepskylog\LaravelGettext\Adapters\AdapterInterface;
-use deepskylog\LaravelGettext\Storages\MemoryStorage;
-use deepskylog\LaravelGettext\Testing\Adapter\TestAdapter;
-use deepskylog\LaravelGettext\Testing\BaseTestCase;
-use deepskylog\LaravelGettext\Config\ConfigManager;
-use deepskylog\LaravelGettext\FileSystem;
-use deepskylog\LaravelGettext\Translators\Symfony;
+use pokovc\LaravelGettext\Adapters\AdapterInterface;
+use pokovc\LaravelGettext\Storages\MemoryStorage;
+use pokovc\LaravelGettext\Testing\Adapter\TestAdapter;
+use pokovc\LaravelGettext\Testing\BaseTestCase;
+use pokovc\LaravelGettext\Config\ConfigManager;
+use pokovc\LaravelGettext\FileSystem;
+use pokovc\LaravelGettext\Translators\Symfony;
 
 class LaravelGettextTest extends BaseTestCase
 {
@@ -98,7 +98,7 @@ class LaravelGettextTest extends BaseTestCase
     {
         $response = $this->translator->setEncoding('UTF-8');
         $this->assertNotEmpty($response);
-        $this->assertInstanceOf('deepskylog\LaravelGettext\Translators\Symfony', $response);
+        $this->assertInstanceOf('pokovc\LaravelGettext\Translators\Symfony', $response);
     }
 
     protected function tearDown(): void

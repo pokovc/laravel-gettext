@@ -1,12 +1,12 @@
 <?php
 
-namespace deepskylog\LaravelGettext\Config;
+namespace pokovc\LaravelGettext\Config;
 
-use \deepskylog\LaravelGettext\Config\Models\Config as ConfigModel;
-use \deepskylog\LaravelGettext\Exceptions\RequiredConfigurationFileException;
-use \deepskylog\LaravelGettext\Exceptions\RequiredConfigurationKeyException;
+use \pokovc\LaravelGettext\Config\Models\Config as ConfigModel;
+use \pokovc\LaravelGettext\Exceptions\RequiredConfigurationFileException;
+use \pokovc\LaravelGettext\Exceptions\RequiredConfigurationKeyException;
 use \Illuminate\Support\Facades\Config;
-use deepskylog\LaravelGettext\Storages\SessionStorage;
+use pokovc\LaravelGettext\Storages\SessionStorage;
 
 class ConfigManager
 {
@@ -90,7 +90,7 @@ class ConfigManager
 
         $id = isset($config['session-identifier']) ? $config['session-identifier'] : 'laravel-gettext-locale';
 
-        $adapter = isset($config['adapter']) ? $config['adapter'] : \deepskylog\LaravelGettext\Adapters\LaravelAdapter::class;
+        $adapter = isset($config['adapter']) ? $config['adapter'] : \pokovc\LaravelGettext\Adapters\LaravelAdapter::class;
 
         $storage = isset($config['storage']) ? $config['storage'] : SessionStorage::class;
 

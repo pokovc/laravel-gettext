@@ -1,9 +1,9 @@
 <?php
 
-namespace deepskylog\LaravelGettext\Testing;
+namespace pokovc\LaravelGettext\Testing;
 
 use \Illuminate\Foundation\Testing\TestCase;
-use deepskylog\LaravelGettext\LaravelGettextServiceProvider;
+use pokovc\LaravelGettext\LaravelGettextServiceProvider;
 
 /**
  * Created by PhpStorm.

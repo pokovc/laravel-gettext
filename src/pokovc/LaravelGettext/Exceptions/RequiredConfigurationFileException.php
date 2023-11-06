@@ -1,6 +1,6 @@
 <?php
 
-namespace deepskylog\LaravelGettext\Exceptions;
+namespace pokovc\LaravelGettext\Exceptions;
 
 use Exception;
 

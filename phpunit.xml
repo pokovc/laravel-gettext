@@ -16,7 +16,7 @@
     </testsuites>
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true" addUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php">./src/deepskylog/</directory>
+            <directory suffix=".php">./src/pokovc/</directory>
         </whitelist>
     </filter>
     <logging>

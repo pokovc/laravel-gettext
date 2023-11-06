@@ -1,20 +1,20 @@
 <?php
 
-namespace deepskylog\LaravelGettext\Translators;
+namespace pokovc\LaravelGettext\Translators;
 
-use deepskylog\LaravelGettext\FileSystem;
-use deepskylog\LaravelGettext\Storages\Storage;
-use deepskylog\LaravelGettext\Config\Models\Config;
-use deepskylog\LaravelGettext\FileLoader\MoFileLoader;
+use pokovc\LaravelGettext\FileSystem;
+use pokovc\LaravelGettext\Storages\Storage;
+use pokovc\LaravelGettext\Config\Models\Config;
+use pokovc\LaravelGettext\FileLoader\MoFileLoader;
 use Symfony\Component\Translation\Loader\PoFileLoader;
-use deepskylog\LaravelGettext\Adapters\AdapterInterface;
+use pokovc\LaravelGettext\Adapters\AdapterInterface;
 use Symfony\Component\Translation\Translator as SymfonyTranslator;
-use deepskylog\LaravelGettext\FileLoader\Cache\ApcuFileCacheLoader;
+use pokovc\LaravelGettext\FileLoader\Cache\ApcuFileCacheLoader;
 
 /**
  * Class implemented by Symfony translation component.
  *
- * @package deepskylog\LaravelGettext\Translators
+ * @package pokovc\LaravelGettext\Translators
  */
 class Symfony extends BaseTranslator
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace deepskylog\LaravelGettext\Commands;
+namespace pokovc\LaravelGettext\Commands;
 
 use Exception;
 use Symfony\Component\Console\Input\InputOption;
-use deepskylog\LaravelGettext\Exceptions\DirectoryNotFoundException;
+use pokovc\LaravelGettext\Exceptions\DirectoryNotFoundException;
 
 class GettextUpdate extends BaseCommand
 {

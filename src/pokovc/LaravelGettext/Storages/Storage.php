@@ -6,7 +6,7 @@
  * Time: 10:10 AM.
  */
 
-namespace deepskylog\LaravelGettext\Storages;
+namespace pokovc\LaravelGettext\Storages;
 
 interface Storage
 {
@@ -55,7 +55,7 @@ interface Storage
     /**
      * Getter for configuration.
      *
-     * @return \deepskylog\LaravelGettext\Config\Models\Config
+     * @return \pokovc\LaravelGettext\Config\Models\Config
      */
     public function getConfiguration();
 }

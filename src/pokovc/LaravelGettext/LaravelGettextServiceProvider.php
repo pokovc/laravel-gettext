@@ -1,19 +1,19 @@
 <?php
 
-namespace deepskylog\LaravelGettext;
+namespace pokovc\LaravelGettext;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
-use deepskylog\LaravelGettext\Adapters\AdapterInterface;
-use deepskylog\LaravelGettext\Config\ConfigManager;
-use deepskylog\LaravelGettext\Config\Models\Config;
+use pokovc\LaravelGettext\Adapters\AdapterInterface;
+use pokovc\LaravelGettext\Config\ConfigManager;
+use pokovc\LaravelGettext\Config\Models\Config;
 
 /**
  * Main service provider.
  *
  * Class LaravelGettextServiceProvider
- * @package deepskylog\LaravelGettext
+ * @package pokovc\LaravelGettext
  *
  */
 class LaravelGettextServiceProvider extends ServiceProvider
@@ -84,7 +84,7 @@ class LaravelGettextServiceProvider extends ServiceProvider
         // Alias
         $this->app->booting(function () {
             $aliasLoader = AliasLoader::getInstance();
-            $aliasLoader->alias('LaravelGettext', \deepskylog\LaravelGettext\Facades\LaravelGettext::class);
+            $aliasLoader->alias('LaravelGettext', \pokovc\LaravelGettext\Facades\LaravelGettext::class);
         });
 
         $this->registerCommands();
@@ -96,17 +96,17 @@ class LaravelGettextServiceProvider extends ServiceProvider
     protected function registerCommands()
     {
         // Package commands
-        $this->app->bind('deepskylog::gettext.create', function ($app) {
+        $this->app->bind('pokovc::gettext.create', function ($app) {
             return new Commands\GettextCreate();
         });
 
-        $this->app->bind('deepskylog::gettext.update', function ($app) {
+        $this->app->bind('pokovc::gettext.update', function ($app) {
             return new Commands\GettextUpdate();
         });
 
         $this->commands([
-            'deepskylog::gettext.create',
-            'deepskylog::gettext.update',
+            'pokovc::gettext.create',
+            'pokovc::gettext.update',
         ]);
     }
 

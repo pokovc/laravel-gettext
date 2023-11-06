@@ -1,11 +1,11 @@
 <?php
 
-namespace deepskylog\LaravelGettext\Translators;
+namespace pokovc\LaravelGettext\Translators;
 
-use deepskylog\LaravelGettext\Adapters\AdapterInterface;
-use deepskylog\LaravelGettext\Config\Models\Config;
-use deepskylog\LaravelGettext\FileSystem;
-use deepskylog\LaravelGettext\Storages\Storage;
+use pokovc\LaravelGettext\Adapters\AdapterInterface;
+use pokovc\LaravelGettext\Config\Models\Config;
+use pokovc\LaravelGettext\FileSystem;
+use pokovc\LaravelGettext\Storages\Storage;
 
 interface TranslatorInterface
 {
@@ -80,7 +80,7 @@ interface TranslatorInterface
      *
      * @param String $domain
      *
-     * @throws \deepskylog\LaravelGettext\Exceptions\UndefinedDomainException If domain is not defined
+     * @throws \pokovc\LaravelGettext\Exceptions\UndefinedDomainException If domain is not defined
      * @return self
      */
     public function setDomain($domain);

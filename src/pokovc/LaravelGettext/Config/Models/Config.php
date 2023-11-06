@@ -1,6 +1,6 @@
 <?php
 
-namespace deepskylog\LaravelGettext\Config\Models;
+namespace pokovc\LaravelGettext\Config\Models;
 
 class Config
 {

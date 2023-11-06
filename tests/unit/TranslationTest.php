@@ -8,12 +8,12 @@
 
 namespace unit;
 
-use deepskylog\LaravelGettext\Adapters\LaravelAdapter;
-use deepskylog\LaravelGettext\Config\ConfigManager;
-use deepskylog\LaravelGettext\FileSystem;
-use deepskylog\LaravelGettext\Storages\MemoryStorage;
-use deepskylog\LaravelGettext\Testing\BaseTestCase;
-use deepskylog\LaravelGettext\Translators\Symfony;
+use pokovc\LaravelGettext\Adapters\LaravelAdapter;
+use pokovc\LaravelGettext\Config\ConfigManager;
+use pokovc\LaravelGettext\FileSystem;
+use pokovc\LaravelGettext\Storages\MemoryStorage;
+use pokovc\LaravelGettext\Testing\BaseTestCase;
+use pokovc\LaravelGettext\Translators\Symfony;
 
 class TranslationTest extends BaseTestCase
 {

@@ -6,7 +6,7 @@
  * Time: 10:23.
  */
 
-namespace deepskylog\LaravelGettext\FileLoader\Cache;
+namespace pokovc\LaravelGettext\FileLoader\Cache;
 
 use Symfony\Component\Translation\Exception\InvalidResourceException;
 use Symfony\Component\Translation\Loader\FileLoader;

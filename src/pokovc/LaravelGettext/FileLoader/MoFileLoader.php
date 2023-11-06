@@ -1,6 +1,6 @@
 <?php
 
-namespace deepskylog\LaravelGettext\FileLoader;
+namespace pokovc\LaravelGettext\FileLoader;
 
 use Symfony\Component\Translation\Exception\InvalidResourceException;
 use Symfony\Component\Translation\Loader\FileLoader;

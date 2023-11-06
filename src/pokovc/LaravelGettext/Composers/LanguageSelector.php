@@ -1,8 +1,8 @@
 <?php
 
-namespace deepskylog\LaravelGettext\Composers;
+namespace pokovc\LaravelGettext\Composers;
 
-use deepskylog\LaravelGettext\LaravelGettext;
+use pokovc\LaravelGettext\LaravelGettext;
 
 /**
  * Simple language selector generator.

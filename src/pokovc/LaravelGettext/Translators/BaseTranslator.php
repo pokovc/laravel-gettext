@@ -1,33 +1,33 @@
 <?php
 
-namespace deepskylog\LaravelGettext\Translators;
+namespace pokovc\LaravelGettext\Translators;
 
-use deepskylog\LaravelGettext\FileSystem;
-use deepskylog\LaravelGettext\Storages\Storage;
-use deepskylog\LaravelGettext\Config\Models\Config;
-use deepskylog\LaravelGettext\Adapters\AdapterInterface;
-use deepskylog\LaravelGettext\Exceptions\UndefinedDomainException;
+use pokovc\LaravelGettext\FileSystem;
+use pokovc\LaravelGettext\Storages\Storage;
+use pokovc\LaravelGettext\Config\Models\Config;
+use pokovc\LaravelGettext\Adapters\AdapterInterface;
+use pokovc\LaravelGettext\Exceptions\UndefinedDomainException;
 
 abstract class BaseTranslator implements TranslatorInterface
 {
     /**
      * Config container.
      *
-     * @type \deepskylog\LaravelGettext\Config\Models\Config
+     * @type \pokovc\LaravelGettext\Config\Models\Config
      */
     protected $configuration;
 
     /**
      * Framework adapter.
      *
-     * @type \deepskylog\LaravelGettext\Adapters\LaravelAdapter
+     * @type \pokovc\LaravelGettext\Adapters\LaravelAdapter
      */
     protected $adapter;
 
     /**
      * File system helper.
      *
-     * @var \deepskylog\LaravelGettext\FileSystem
+     * @var \pokovc\LaravelGettext\FileSystem
      */
     protected $fileSystem;
 

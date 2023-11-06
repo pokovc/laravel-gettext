@@ -1,6 +1,6 @@
 <?php
 
-use deepskylog\LaravelGettext\LaravelGettext;
+use pokovc\LaravelGettext\LaravelGettext;
 
 if (!function_exists('_i')) {
     /**

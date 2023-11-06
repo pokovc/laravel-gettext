@@ -1,6 +1,6 @@
 <?php
 
-namespace deepskylog\LaravelGettext\Commands;
+namespace pokovc\LaravelGettext\Commands;
 
 class GettextCreate extends BaseCommand
 {

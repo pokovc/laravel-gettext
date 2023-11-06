@@ -6,23 +6,23 @@
  * Time: 10:08 AM.
  */
 
-namespace deepskylog\LaravelGettext\Storages;
+namespace pokovc\LaravelGettext\Storages;
 
 class MemoryStorage implements Storage
 {
     /**
      * Config container.
      *
-     * @type \deepskylog\LaravelGettext\Config\Models\Config
+     * @type \pokovc\LaravelGettext\Config\Models\Config
      */
     protected $configuration;
 
     /**
      * SessionStorage constructor.
      *
-     * @param \deepskylog\LaravelGettext\Config\Models\Config $configuration
+     * @param \pokovc\LaravelGettext\Config\Models\Config $configuration
      */
-    public function __construct(\deepskylog\LaravelGettext\Config\Models\Config $configuration)
+    public function __construct(\pokovc\LaravelGettext\Config\Models\Config $configuration)
     {
         $this->configuration = $configuration;
     }
@@ -91,7 +91,7 @@ class MemoryStorage implements Storage
     /**
      * Getter for configuration.
      *
-     * @return \deepskylog\LaravelGettext\Config\Models\Config
+     * @return \pokovc\LaravelGettext\Config\Models\Config
      */
     public function getConfiguration()
     {

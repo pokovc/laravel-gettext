@@ -1,6 +1,6 @@
 <?php
 
-namespace deepskylog\LaravelGettext\Adapters;
+namespace pokovc\LaravelGettext\Adapters;
 
 use Illuminate\Support\Facades\App;
 
